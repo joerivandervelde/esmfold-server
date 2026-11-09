@@ -22,7 +22,7 @@ A minimal HTTP service for folding amino acid sequences with ESMFold and returni
 ## Install (allow online mode once)
 ```
 uv sync
-HF_HUB_OFFLINE=0 uv run uvicorn app:app --host 0.0.0.0 --port 8000
+HF_HUB_OFFLINE=0 uv run uvicorn esmfold-server:app --host 0.0.0.0 --port 8000
 ```
 
 ## Run (offline)
